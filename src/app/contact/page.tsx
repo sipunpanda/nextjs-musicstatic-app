@@ -38,9 +38,9 @@ function Page(){
             </div>
             <button
               type="submit"
-              className="w-full bg-emerald-400 hover:bg-emerald-500 text-white font-semibold py-2 rounded-lg transition-all"
+              className="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-2 rounded-lg transition-all"
             >
-              Send Message to Us
+              Send Message
             </button>
           </form>
         
