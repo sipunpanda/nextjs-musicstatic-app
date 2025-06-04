@@ -109,7 +109,16 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+import { AnchorHTMLAttributes, DetailedHTMLProps } from "react";
+
+type HoveredLinkProps = DetailedHTMLProps<
+  AnchorHTMLAttributes<HTMLAnchorElement>,
+  HTMLAnchorElement
+> & {
+  children: React.ReactNode;
+};
+
+export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
   return (
     <a
       {...rest}

@@ -1,5 +1,5 @@
-import { main } from "motion/react-client";
-import Image from "next/image";
+// import { main } from "motion/react-client";
+// import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";

@@ -7,7 +7,7 @@ function Page(){
         <div className="min-h-screen flex flex-col items-center justify-center  text-white px-6 mt-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h2>
           <p className="text-center max-w-xl text-gray-300 mb-10">
-            Have questions, suggestions, or feedback? We'd love to hear from you.
+            Have questions, suggestions, or feedback? We&apos;d love to hear from you.
             Fill out the form below and our team will get back to you shortly.
           </p>
     
